@@ -42,20 +42,3 @@ end
 
 # # Use Rails 6 migrations
 # load 'active_record/railties/databases.rake'
-
-# namespace :db do
-#   desc 'Seed flats database'
-#   task :seed do
-#     CSV.foreach('db/flats.csv', headers: true) do |row|
-#       Flat.create(
-#         name: row['name'],
-#         area: row['area'],
-#         url: row['link'],
-#         studio_price: row['studio'],
-#         one_bd_price: row['1bd'],
-#         two_bd_price: row['2bd'],
-#         three_bd_price: row['3bd']
-#       )
-#     end
-#   end
-# end
