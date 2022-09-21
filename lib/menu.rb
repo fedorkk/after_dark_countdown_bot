@@ -8,8 +8,8 @@ class Menu
     def start
       MenuConstructor.create(
         [
-          ['Пasdasdй чат'],
-          ['Подклasdasdasdат']
+          ['Подключить личный чат'],
+          ['Подключить общий чат']
         ]
       )
     end
